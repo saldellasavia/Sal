@@ -1,0 +1,14 @@
+Primeiro criar uma pasta, em seguida mude o icone desta pasta para gerar o arquivo desktop.ini que estara oculto, depois tornar
+este arquivo oculto visivel para acrescentar algumas linhas de comando a seguir:
+
+[.ShellClassInfo]
+Iconfile=%SystemRoot%\system32\SHELL32.dll
+IconIndex=3  #PULAR UMA LINHA E ACRESCENTAR MAIS DUAS
+
+[ExtShellFolderViews]
+{BE098140-A513-11D0-A3A4-00C04FD706EC}={BE098140-A513-11D0-A3A4-00C04FD706EC}
+[{BE098140-A513-11D0-A3A4-00C04FD706EC}]
+IconArea_Image=NOME DA IMAGEM.jpg
+DEPOIS DEIXE O ARQUIVO INI OCULTO E PRONTO
+QUANDO QUISER TROCAR DE FUNDO, COPIE OUTRA IMAGEM COM MESMO NOME QUE ESTÁ
+NO ARQUIVO INI ASSIM ESTARÁ TUDO FUNCIONANDO.
